@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+gem "sinatra"
 
 # An object-relational mapper
 # https://guides.rubyonrails.org/active_record_basics.html
@@ -21,3 +22,4 @@ gem "sqlite3", "~> 1.4"
 gem "require_all"
 
 gem "pry"
+gem 'webrick'
