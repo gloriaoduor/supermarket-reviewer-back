@@ -4,5 +4,6 @@ class CreateReviews < ActiveRecord::Migration[6.1]
       t.string :comment
       t.integer :review_id
       t.integer :shopper_id 
-  end
+    end
+  end 
 end
