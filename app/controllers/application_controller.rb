@@ -9,8 +9,8 @@ class ApplicationController < Sinatra::Base
         s_markets.to_json
     end 
     #get all reviews of the supermarket that has been specified
-    get '/supermarkets/:id' do
-        s_mkt = Supermarket.find(params[:id])
+    get '/:name' do
+        s_mkt = Supermarket.find_by(name: params[:name])
         s_mkt.to_json(only: [:name],
                     include: {reviews: {only: [:comment],
                     include: {shopper: {only: [:name]}}}
