@@ -23,3 +23,5 @@ gem "require_all"
 
 gem "pry"
 gem 'webrick'
+gem 'sinatra-cross_origin'
+gem 'rack-contrib'
