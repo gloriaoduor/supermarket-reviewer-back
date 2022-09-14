@@ -25,3 +25,4 @@ gem "pry"
 gem 'webrick'
 gem 'sinatra-cross_origin'
 gem 'rack-contrib'
+gem 'sinatra-contrib', '~> 2.2', '>= 2.2.2',require: false
