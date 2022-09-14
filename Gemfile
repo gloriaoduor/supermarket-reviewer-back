@@ -28,3 +28,6 @@ gem 'webrick'
 gem 'sinatra-cross_origin'
 gem 'rack-contrib'
 gem 'sinatra-contrib', '~> 2.2', '>= 2.2.2',require: false
+
+gem 'webpacker', '~>3.0'
+gem 'psych', '< 4'
