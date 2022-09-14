@@ -1,5 +1,6 @@
 development:
   adapter: postgresql
-  database: db/development.postgresql
-  encoding: unicode 
-  pool: <%= ENV['DATABASE_HOST'] {5} %>
+  encoding: unicode
+  database: development
+  host: <%= ENV['DATABASE_HOST'] %>
+  pool: 5
