@@ -15,7 +15,7 @@ gem "rake"
 
 # Provides functionality to interact with a SQLite3 database
 # https://github.com/sparklemotion/sqlite3-ruby
-gem "sqlite3", "~> 1.4"
+gem "pg", "~> 1.4"
 
 # Require all files in a folder
 # https://github.com/jarmo/require_all
@@ -25,7 +25,3 @@ gem "pry"
 gem 'webrick'
 gem 'sinatra-cross_origin'
 gem 'rack-contrib'
-
-group :production do
-    gem 'pg', '~> 1.4', '>= 1.4.3'
-  end
