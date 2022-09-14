@@ -13,3 +13,7 @@ Gloria Oduor
 #### License 
 [MIT Licence](http://choosealicense.com/licenses/mit/#)
 
+#### Hosted on:
+Heroku 
+[Link](https://sm-reviewer-api.herokuapp.com/)
+
